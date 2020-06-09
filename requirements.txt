@@ -101,9 +101,6 @@ jupyter-console==6.1.0
 jupyter-core==4.6.1
 jupyterlab==1.2.6
 jupyterlab-server==1.0.6
-Keras==2.2.4
-Keras-Applications==1.0.8
-Keras-Preprocessing==1.1.0
 keyring==21.1.0
 kiwisolver==1.1.0
 kiwisolver==1.1.0
@@ -192,7 +189,6 @@ pywinpty==0.5.7
 PyYAML==5.3
 pyzmq==18.1.1
 QDarkStyle==2.8
-qrcode==6.1
 QtAwesome==0.6.1
 qtconsole==4.6.0
 QtPy==1.9.0
@@ -231,10 +227,6 @@ statsmodels==0.11.0
 sympy==1.5.1
 tables==3.6.1
 tblib==1.6.0
-Telethon==1.11.3
-tensorboard==1.14.0
-tensorflow==1.14.0
-tensorflow-estimator==1.14.0
 termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
