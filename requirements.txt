@@ -106,7 +106,7 @@ Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
 keyring==21.1.0
 kiwisolver==1.1.0
-konlpy==0.5.2
+kiwisolver==1.1.0
 lazy-object-proxy==1.4.3
 libarchive-c==2.8
 llvmlite==0.31.0
@@ -117,9 +117,6 @@ MarkupSafe==1.1.1
 matplotlib==3.1.3
 mccabe==0.6.1
 mistune==0.8.4
-mkl-fft==1.0.15
-mkl-random==1.1.0
-mkl-service==2.3.0
 mock==4.0.1
 more-itertools==8.2.0
 mpmath==1.1.0
