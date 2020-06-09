@@ -95,12 +95,6 @@ joblib==0.14.1
 JPype1==0.7.2
 json5==0.9.1
 jsonschema==3.2.0
-jupyter==1.0.0
-jupyter-client==5.3.4
-jupyter-console==6.1.0
-jupyter-core==4.6.1
-jupyterlab==1.2.6
-jupyterlab-server==1.0.6
 keyring==21.1.0
 kiwisolver==1.1.0
 kiwisolver==1.1.0
