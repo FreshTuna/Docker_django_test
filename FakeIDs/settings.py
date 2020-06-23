@@ -20,12 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'l0&%bb@4mxivd%o(=lj02xa0a1d$3+)z9f=&8d&g6bs%(@yd#g')
+SECRET_KEY = '&8r(zag$=d_hx0mm5etfi%u6wakcgds!3$hp_!p3qg1&+!b*ty'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
-ALLOWED_HOSTS = ['djangotestforheroku.herokuapp.com']
+DEBUG = True
 
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -42,7 +42,6 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -80,7 +79,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'fakeids',
-        'USER': 'postgres',
+        'USER': 'jang',
         'PASSWORD': 'go1zld1zz05',
         'HOST': 'localhost',
         'PORT':'5432'
@@ -125,8 +124,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-
+"""
 import dj_database_url
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
-
+"""
